@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "julia-hw"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiopath = "^0.7.7"
+
+[tool.poetry.group.dev.dependencies]
+aioshutil = "^1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
